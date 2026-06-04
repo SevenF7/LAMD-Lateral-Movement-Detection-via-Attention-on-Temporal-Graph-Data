@@ -1,0 +1,32 @@
+# Runtime / experiment artifacts
+log/
+results/
+saved_checkpoints/
+saved_models/
+experiments/
+figures/
+paper/
+data/*.csv
+data/*.npy
+data/*.txt
+
+# Non-model scripts and docs
+plot_*.py
+run_*.py
+mixdata*.py
+filter_scenarios.py
+remove_last_column.py
+summarize_logs.py
+readpkl.py
+param_*.json
+PAPER_*.md
+INTEGRATION_PLAN_PROVCTDG.md
+utils/und.py
+
+# Python / OS
+__pycache__/
+*.py[cod]
+*.pkl
+.pytest_cache/
+.DS_Store
+Thumbs.db
