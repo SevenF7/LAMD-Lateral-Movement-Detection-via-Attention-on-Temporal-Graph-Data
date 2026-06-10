@@ -33,7 +33,3 @@ To use two GNNs (out-edges and in-edges) and fuse with a learned α (`z = α·z_
 Without `--use_direction` / `--one_hot_dir` / `--dir_gnn`, behavior is unchanged (undirected neighbors, no direction encoding). See `INTEGRATION_PLAN_PROVCTDG.md` for the integration plan.
 
 Check the results in *log, results, saved_checkpoints, saved_models under* 
-
-## Experimental data and results
-
-Check (https://github.com/lostecho187/Experiments)
